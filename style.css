@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+
+section#seletores>h1 {
+    position: relative;
+    bottom: 150px;
+    left: 180px;
+}
+
+section#seletores {
+    padding-left: 100px;
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+div.text-1 {
+    padding-bottom: 70px;
+}
+
+div.text-1>h1 {
+    font-size: 50px;
+}
+
+div.text-2 {
+    padding-right: 70px;
+}
+
+div.text-2>h1 {
+    font-size: 20px;
+}
+
+form {
+    width: 40%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+form>input {
+    width: 330px;
+}
+
+section#box-body {
+    border-left: 0.6px solid black;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+div.text-3 {
+    padding-bottom: 50px;
+}
+
+
+h1 {
+    font-size: 30px;
+    background: linear-gradient(90deg,
+            #ff0000, #ffFF00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    word-spacing: 3px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: cores 10s linear infinite;
+}
+
+@keyframes cores {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+#box {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 2px 2px 30px black;
+    border-radius: 20px;
+}
