@@ -18,7 +18,7 @@ O *Seletor de Cores*, Versão 2, é um projeto pessoal que desenvolvi como parte
 
 Durante o desenvolvimento do Seletor de Cores, Versão 2, aprendi muitos conceitos valiosos em relação ao design de interfaces, manipulação de eventos com JavaScript e técnicas avançadas de CSS para criar uma aparência moderna e elegante.
 
-Um dos principais desafios que enfrentei foi garantir que a seleção personalizada funcionasse de forma precisa e que os valores de cores fossem corretamente convertidos entre os formatos RGB, HEX e HSL.
+Um dos principais desafios que enfrentei foi garantir que a seleção personalizada funcionasse de forma precisa e que os valores de cores fossem corretamente convertido entre o formato RGB
 
 ## Conclusão
 
