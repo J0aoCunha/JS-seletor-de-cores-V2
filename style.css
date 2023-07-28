@@ -5,11 +5,15 @@
 }
 
 body {
-
     width: 100%;
     height: 100vh;
-    display: flex;
 
+}
+
+main {
+    width: 100%;
+    height: 95vh;
+    display: flex;
 }
 
 section#seletores>h1 {
@@ -21,7 +25,7 @@ section#seletores>h1 {
 section#seletores {
     padding-left: 100px;
     width: 40%;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -59,21 +63,16 @@ form>input {
 section#box-body {
     border-left: 0.6px solid black;
     width: 60%;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-
-
-
-
 div.text-3 {
     padding-bottom: 50px;
 }
-
 
 h1 {
     font-size: 30px;
@@ -102,4 +101,17 @@ h1 {
     background-color: white;
     box-shadow: 2px 2px 30px black;
     border-radius: 20px;
+}
+
+footer {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }

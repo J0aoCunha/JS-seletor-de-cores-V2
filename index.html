@@ -10,31 +10,37 @@
 </head>
 
 <body>
+    <main>
+        <section id="seletores">
+            <div class="text-1">
+                <h1>Seletor de Cores</h1>
+            </div>
+            <div class="text-2">
+                <h1>Selecione as Cores</h1>
+            </div>
+            <form>
+                <input oninput="mudarCores()" type="range" min="0" max="255" id="red">
 
-    <section id="seletores">
-        <div class="text-1">
-            <h1>Seletor de Cores</h1>
-        </div>
-        <div class="text-2">
-            <h1>Selecione as Cores</h1>
-        </div>
-        <form>
-            <input oninput="mudarCores()" type="range" min="0" max="255" id="red">
+                <input oninput="mudarCores()" type="range" min="0" max="255" id="green">
 
-            <input oninput="mudarCores()" type="range" min="0" max="255" id="green">
+                <input oninput="mudarCores()" type="range" min="" max="255" id="blue">
+            </form>
+        </section>
 
-            <input oninput="mudarCores()" type="range" min="" max="255" id="blue">
-        </form>
-    </section>
+        <section id="box-body">
+            <div class="text-3">
+                <h1>Resultado</h1>
+            </div>
+            <div id="box">
 
-    <section id="box-body">
-        <div class="text-3">
-            <h1>Resultado</h1>
-        </div>
-        <div id="box">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h4>developer by @J0aoCunha</h4>
+    </footer>
 
-        </div>
-    </section>
+
 
     <script src="index.js"></script>
 </body>
