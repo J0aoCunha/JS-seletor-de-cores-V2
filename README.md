@@ -28,4 +28,4 @@ Espero que esta ferramenta seja útil para outras pessoas também. Estou ansioso
 
 Para ver o código-fonte e experimentar o *Seletor de Cores*, Versão 2, visite [link_do_repositório](https://github.com/J0aoCunha/seletor-de-coresv2).
 
-Se tiver alguma sugestão ou feedback, não hesite em entrar em contato. Obrigado por conferir o *Seletor de Cores*, Versão 2!
+
